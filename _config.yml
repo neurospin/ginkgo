@@ -1,0 +1,69 @@
+
+# Site settings
+title: Ginkgo
+subtitle: Neuroimaging Genetics
+#baseurl:
+#url:
+baseurl: ginkgoteam
+url: http://iuszynski.github.io/ginkgo
+
+# Contacts
+email: ivy.uszynski@cea.fr
+author:
+street_address:
+city:
+state: 
+zip_code:
+country: France
+phone:
+
+# Index
+short_desc: Image Analysis for Neurosciences
+long_desc: 
+# Expiration in days
+expiration_opportunities: 100
+expiration_news: 370
+
+# Social settings
+500px_url: http://www.neurospin-wiki.org/pmwiki/Main/DirectionsToNeurospin
+#facebook_url: https://www.facebook.com/pages/NeuroSpin/171075046414933
+github_url: https://github.com/brainomicsteam
+#twitter_url: https://twitter.com/neurospin_91
+#youtube_url: https://www.youtube.com/CEASaclay
+map_url: https://www.google.fr/maps/@48.720535,2.1467526,16z?hl=en
+
+# Sass building
+sass:
+    sass_dir: _sass
+    
+# Build settings
+markdown: kramdown
+
+# Collections
+collections_dir: _collections
+collections:
+
+  opportunities:
+    output    : true
+    permalink : /:collection/:path
+
+  collaborators:
+    output    : true
+    permalink : /colleborators/:title/index.html
+
+  people:
+    output    : true
+    permalink : /people/:title/index.html
+
+  news:
+    output    : true
+    permalink : /news/:title/index.html
+
+  biblio:
+    output    : true
+    permalink : /biblio/:title/index.html
+
+  research:
+    output    : true
+    permalink : /research/:title/index.html
+
