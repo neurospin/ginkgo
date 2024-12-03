@@ -1,0 +1,99 @@
+#!/usr/bin/python
+##########################################################################
+# NSAp - Copyright (C) CEA, 2019
+# Distributed under the terms of the CeCILL-B license, as published by
+# the CEA-CNRS-INRIA. Refer to the LICENSE file or to
+# http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html
+# for details.
+##########################################################################
+
+
+# Imports
+import os
+import argparse
+import subprocess
+import yaml
+
+# Define command line
+doc = """
+Convert BIBTEX to MD.
+Must install first pybtex.
+python bib2md -i test.bib -o out
+"""
+parser = argparse.ArgumentParser(description=doc)
+parser.add_argument(
+    "-i", "--infile",
+    help="the input .bib file.")
+parser.add_argument(
+    "-o", "--outdir",
+    help="the destination folder.")
+args = parser.parse_args()
+
+
+
+# Convert bib to yaml with pybtex-convert
+bibfile = os.path.join(args.outdir, "bib.yaml")
+cmd = ["pybtex-convert", args.infile,  bibfile]
+subprocess.call(cmd)
+
+
+# Load biblio
+with open(bibfile, "rt") as of:
+    biblio = yaml.safe_load(of)["entries"]
+
+# ancillary function to processs the item_author string
+def format_author(aut):
+    """
+    Format APA-like recent
+    
+    Parameters
+    ----------
+    aut: str
+    
+    Return
+    ------
+    aut_out : str
+        the formated author string
+    """
+    aut_out = ""
+    if len(aut)==1:
+        aut_out = ''
+    elif len(aut)==2:
+        aut_out = ''
+    else:
+        if len(aut) > 7:
+            aut_sep = '... '
+        else:
+            aut_sep = '& '
+        for i, a in enumerate(aut[:-1]):
+            if i > 6:
+                break
+            aut_out += "{0} {1}, ".format(
+                            "" if ("first" not in a) else a["first"],
+                            a["last"])
+        aut_out += "{0}{1} {2}.".format(aut_sep,
+                            "" if ("first" not in aut[-1]) else aut[-1]["first"],
+                            aut[-1]["last"])
+    return aut_out
+
+# Create single entries
+for key, item in biblio.items():
+    key = key.replace(os.sep, "_")
+    item["author"] = format_author(item["author"])
+    md_file = os.path.join(args.outdir, key + ".md")
+    content = ["---"]
+    for _key in ["author", "title", "journal", "year", "type", "pdf", "doi",
+                 "booktitle", "team", "volume", "number", "pages"]:
+        value = item.get(_key, None)
+        if value is None:
+            continue
+        for char in ("\n", "{", "}", "\\'", '"', "`", "'"):
+            value = value.replace(char, "")
+        for char in (":", ):
+            if _key != "pdf":
+                value = value.replace(char, " -")
+        content.append("{0}: {1}".format(_key, value))
+    content += ["---"]
+    with open(md_file, "wt") as of:
+        of.write("\n".join(content))
+    
