@@ -1,14 +1,14 @@
 
 # Site settings
-title: BrainOmics
-subtitle: Neuroimaging Genetics
+title: Ginkgo
+subtitle: The Ginkgo Team
 #baseurl:
 #url:
-baseurl: brainomicsteam
-url: https://baobablab.github.io
+baseurl: ginkgoteam
+url: https://iuszynski.github.io/ginkgo
 
 # Contacts
-email: vincent.frouin@cea.fr
+email: ivy.uszynski@cea.fr
 author:
 street_address:
 city:
@@ -18,7 +18,7 @@ country: France
 phone:
 
 # Index
-short_desc: Imaging Genetics for Neurosciences
+short_desc: Image Analysis for Neurosciences
 long_desc: Made possible by a PIA grant, the Brainomics project was established to study associations between neuroimaging, genetics, and cognitive data. The aim of this project is to unveil such relationships using advanced data science tools as well as the knowledge and expertise stemming from our interdisciplinary members, most of whom are currently based in CEA Neurospin University Paris-Saclay.
 # Expiration in days
 expiration_opportunities: 100
