@@ -1,10 +1,10 @@
 ---
 layout: page
-name: Vincent Frouin - HdR
-title: Vincent Frouin
+name: Ivy Uszynski - PhD
+title: Ivy Uszynski
 position: pi
 avatar: 
-joined: 2006
+joined: 2019
 ---
 
 <!-- Section
@@ -12,7 +12,7 @@ joined: 2006
 - _Data integration, CEA Saclay_
 -->
  
-<a href="http://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/neurospin/UNATI/research.aspx?Type=Chapitre&num
+<!-- <a href="http://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/neurospin/UNATI/research.aspx?Type=Chapitre&num
 ero=1" class="image" target="_blank"><img src="{{site.url}}/{{site.baseurl}}/assets/images/cea.png" width="64" height="64" alt="image-title-here" /></a><br>
 <a href="https://orcid.org/0000-0001-9360-6623" class="image" target="_blank"><img src="{{site.url}}/{{site.baseurl}}/assets/images/orcid.jpg" width="64" height="64" a
 lt="image-title-here" /></a>
@@ -23,7 +23,7 @@ lt="image-title-here" /></a>
 
 **Office**<br>
 NeuroSpin <br>
-France
+France -->
 
 <!-- Section
 [Vincent](http://brainomics.org/) Researches.
