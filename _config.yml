@@ -4,8 +4,8 @@ title: Ginkgo
 subtitle: The Ginkgo Team
 #baseurl:
 #url:
-baseurl: https://iuszynski.github.io/ginkgo
-url: https://iuszynski.github.io/ginkgo
+baseurl: ginkgo
+url: https://iuszynski.github.io/
 
 # Contacts
 email: ivy.uszynski@cea.fr
