@@ -18,8 +18,8 @@ country: France
 phone:
 
 # Index
-short_desc: Image Analysis for Neurosciences
-long_desc: Made possible by a PIA grant, the Brainomics project was established to study associations between neuroimaging, genetics, and cognitive data. The aim of this project is to unveil such relationships using advanced data science tools as well as the knowledge and expertise stemming from our interdisciplinary members, most of whom are currently based in CEA Neurospin University Paris-Saclay.
+short_desc: Mapping the brain microstructure accross individuals and species
+long_desc: 'Within the framework of the transversal research program "Cyto in vivo", our main objective is twofold: mapping the cerebral structural connectome and mapping the cortex cytoarchitectony and myeloarchitectony at the individual scale, from animal to human using MRI. To this end, the scientific strategy is based on 3 pillars: the collection of extreme field (11.7 T, 17.2 T) MRI data acquired on post-mortem brains, the collection of ultra-high field (3 T, 7 T) MRI data acquired on human volunteers, and the development of innovative numerical methods of inference of the structural connectome, cytoarchitectonics and myeloarchitectonics of individual brains based on high performance computing (HPC), numerical simulation and artificial intelligence (AI).'
 # Expiration in days
 expiration_opportunities: 100
 expiration_news: 370
