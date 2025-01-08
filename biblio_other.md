@@ -10,7 +10,7 @@ permalink: /bibliography/other
 {% assign today = site.time | date: '%Y' %}
 {% assign biblio_sorted = (site.biblio | sort: 'year' | reverse %}
 
-{% for idx in (0..5) %}
+{% for idx in (0..10) %}
 
 {% assign year = today | minus: idx %}
 
