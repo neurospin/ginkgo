@@ -5,6 +5,6 @@ cat:
 subcat: 
 teasing: We established a new white matter atlas of the deep and superficial white matter structural connectivity in chimpanzees.
 icon: chimpanzee_atlas.jpg
-url: 10.1016/j.neuroimage.2023.120362
+site: https://www.sciencedirect.com/science/article/pii/S105381192300513X?via%3Dihub
 added: 2024
 ---
