@@ -16,7 +16,7 @@ layout: default
         <h3>{{ research.title }}</h3>
         <p>{{ research.teasing }}...</p>
         <ul class="actions">
-            <li><a href="{{site.url}}/{{site.baseurl}}/{{research.site}}" class="button medium">More</a></li>
+            <li><a href="{{research.site}}" class="button medium">More</a></li>
         </ul>
       </article>
     {% endfor %}
