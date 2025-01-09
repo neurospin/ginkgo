@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 
 title: A white matter fiber atlas of the chimpanzee brain
 cat: 
 subcat: 

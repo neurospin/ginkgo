@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 
 title: Sex-related variability of white matter tracts
 cat: 
 subcat: 
