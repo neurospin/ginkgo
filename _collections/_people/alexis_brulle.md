@@ -7,3 +7,4 @@ avatar:
 joined: 2020
 ---
 
+<a class="external" target="_blank" href="https://theses.fr/2024UPAST080">https://theses.fr/2024UPAST080</a>
