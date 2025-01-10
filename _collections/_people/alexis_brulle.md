@@ -5,5 +5,5 @@ title: Alexis Brullé
 position: alumni
 avatar:
 joined: 2020
-url: alexis_brulle
 ---
+

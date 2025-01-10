@@ -31,7 +31,7 @@ permalink: /people/
   {% for profile in people_sorted %}
     {% if profile.position contains item %}
     <div style="text-align: left; padding-left: 5em;">
-        <a class="name" href="{{site.url}}/{{site.baseurl}}/{{profile.url}}">{{ profile.name }}</a>
+        <a class="name" href="{{site.url}}/{{site.baseurl}}/{{ profile.url }}">{{ profile.name }}</a>
     </div>
     {% endif %}
   {% endfor %}
