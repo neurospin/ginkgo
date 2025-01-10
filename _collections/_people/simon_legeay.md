@@ -6,3 +6,5 @@ position: gradstudent
 avatar:
 joined: 2021
 ---
+
+<a class="external" target="_blank" href="https://theses.fr/s307055">https://theses.fr/s307055</a>

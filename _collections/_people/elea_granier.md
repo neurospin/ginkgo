@@ -6,3 +6,5 @@ position: gradstudent
 avatar:
 joined: 2022
 ---
+
+<a class="external" target="_blank" href="https://theses.fr/s352836">https://theses.fr/s352836</a>
