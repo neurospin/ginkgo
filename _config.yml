@@ -2,10 +2,12 @@
 # Site settings
 title: Ginkgo
 subtitle: Microstructure imaging
-#baseurl:
-#url:
-baseurl: ginkgo
-url: https://neurospin.github.io
+baseurl:
+url:
+
+# Legal
+director: Jean-François Mangin
+webmaster: Ivy Uszynski
 
 # Contacts
 email: ivy.uszynski@cea.fr
