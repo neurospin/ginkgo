@@ -7,6 +7,9 @@ avatar:
 joined: 2019
 ---
 
+Ivy Uszynski obtained her PhD in Medical Imaging in  2018 from Université Grenoble Alpes (France). She began her career as a postdoctoral fellow at the French Alternative Energies and Atomic Energy Commission (CEA) in 2019, and became a CEA researcher at NeuroSpin (CEA Saclay) in 2020. Her research interests are related to the study of the structural connectivity of the brain, from animal to human using extreme field (7T, 17.2T) diffusion MRI, through the development of innovative numerical methods of inference of the structural connectome and brain microstructure.
+She is presently head of the Ginkgo research group in the NeuroSpin/BAOBAB/GAÏA lab.
+
 <!-- Section
 - _Genetic researcher, CEA Evry_<br>
 - _Data integration, CEA Saclay_
