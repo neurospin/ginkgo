@@ -3,7 +3,7 @@ layout: page
 name: Ivy Uszynski - PhD
 title: Ivy Uszynski
 position: pi
-avatar: 
+avatar:
 joined: 2019
 ---
 
@@ -14,7 +14,7 @@ She is presently head of the Ginkgo research group in the NeuroSpin/BAOBAB/GAÏA
 - _Genetic researcher, CEA Evry_<br>
 - _Data integration, CEA Saclay_
 -->
- 
+
 <!-- <a href="http://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/neurospin/UNATI/research.aspx?Type=Chapitre&num
 ero=1" class="image" target="_blank"><img src="{{site.url}}/{{site.baseurl}}/assets/images/cea.png" width="64" height="64" alt="image-title-here" /></a><br>
 <a href="https://orcid.org/0000-0001-9360-6623" class="image" target="_blank"><img src="{{site.url}}/{{site.baseurl}}/assets/images/orcid.jpg" width="64" height="64" a
@@ -31,4 +31,3 @@ France -->
 <!-- Section
 [Vincent](http://brainomics.org/) Researches.
 -->
-

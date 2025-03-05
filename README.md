@@ -2,7 +2,7 @@
 
 # Team member contributions - How To
 
-Any contribution from all team members is welcome! Please follow click 
+Any contribution from all team members is welcome! Please follow click
 the "Issue" tab (or follow https://github.com/iuszynski/ginkgo/issues).
 Then click the "New issue" button and follow the instructions.
 
