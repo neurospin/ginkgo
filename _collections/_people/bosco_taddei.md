@@ -6,4 +6,3 @@ position: engineer
 avatar:
 joined: 2021
 ---
-
