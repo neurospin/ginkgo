@@ -2,7 +2,7 @@
 layout: page
 name: Maëlig Chauvel - PhD 2023 (prepared under superv. C Poupon)
 title: Maëlig Chauvel
-position: alumni
+position: postdoc
 avatar:
 joined: 2019
 ---
