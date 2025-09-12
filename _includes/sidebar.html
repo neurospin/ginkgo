@@ -4,7 +4,7 @@
 
         <!-- Menu -->
         {% assign today = site.time | date: '%Y' %}
-        {% assign year = today | minus: 7 %}
+        {% assign year = today | minus: 10 %}
         {% assign research_sorted = (site.research | sort: 'cat' %}
         {% assign unique_cats = '' | split: ',' %}
         {% for research in research_sorted %}
