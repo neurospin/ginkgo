@@ -1,5 +1,5 @@
 ---
-author: Maëlig Chauvel, Ivy Uszynski, Cyril Poupon, William D Hopkins.
+author: Maëlig Chauvel, Ivy Uszynski, Cyril Poupon, William D Hopkins
 title: Corpus callosum microstructure in chimpanzees (pan troglodytes): associations with age, handedness and cognition
 journal: Frontiers in Aging Neuroscience
 year: 2025
