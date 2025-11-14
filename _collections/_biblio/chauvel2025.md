@@ -4,6 +4,6 @@ title: Corpus callosum microstructure in chimpanzees (pan troglodytes), associat
 journal: Frontiers in Aging Neuroscience
 year: 2025
 type: article
-doi: doi.org/10.3389/fnagi.2025.1611611
+doi: 10.3389/fnagi.2025.1611611
 team: yes
 ---
