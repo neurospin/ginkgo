@@ -4,6 +4,6 @@ title: Oro-facial and manual motor functions are differentially associated with 
 journal: Cerebral Cortex
 year: 2025
 type: article
-doi: doi.org/10.1093/cercor/bhaf269
+doi: 10.1093/cercor/bhaf269
 team: yes
 ---
