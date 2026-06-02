@@ -2,7 +2,7 @@
 layout: page
 name: Mathilde Dussert
 title: Mathilde Dussert
-position: intern
+position: gradstudent
 avatar:
 joined: 2025
 ---
