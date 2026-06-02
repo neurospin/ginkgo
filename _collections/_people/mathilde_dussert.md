@@ -6,3 +6,5 @@ position: gradstudent
 avatar:
 joined: 2025
 ---
+
+<a class="external" target="_blank" href="https://theses.fr/s424222">https://theses.fr/s424222</a>
